@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.dress{
+  width:320px;
+}
+.watch-image{
+  
+  height:150px;
+  width:320px;
+  object-fit:cover;
+}
+.watch-desc{
+  font-weight: bold;
+  color: blue;
+}
+.dress-desc{
+  display:flex;
+  justify-content: space-between;
+}
+.dress-name{
+  font-size: 20px;
+  color:darkorange;
+}
+.dress-list{
+  display:flex;
+  gap:8px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.price{
+  color: blue;
+}
+.button{
+  background-color: #4CAF50;
+  font-weight: bolder;
+  color:white;
+}
+.cart{
+  color: royalblue;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
